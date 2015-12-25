@@ -1,4 +1,4 @@
-The dataset includes the following files:
+## The dataset includes the following files:
 
 'README.txt'
 
@@ -16,7 +16,7 @@ The dataset includes the following files:
 
 'test/y_test.txt': Test labels.
 
-The following files are available for the train and test data. Their descriptions are equivalent.
+## The following files are available for the train and test data. Their descriptions are equivalent.
 
 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
@@ -26,7 +26,7 @@ The following files are available for the train and test data. Their description
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-Variables used include
+## Variables used include
 activity_labels: Stores data read from the activity labels file
 
 features:stores data read from the features file
@@ -51,7 +51,7 @@ train_data:Contains merged data for test
 
 tidy_data:Contains clean data
 
-Transformation
+## Transformation
 
 1.Merges the training and the test sets to create one data set.
 2.Extracts only the measurements on the mean and standard deviation for each measurement.
